@@ -1,3 +1,4 @@
-https://travis-ci.org/bayboraoren/unicode-task-rest.svg?branch=develop
+[![Build Status](https://travis-ci.org/bayboraoren/unicode-task-rest.svg?branch=develop)](https://travis-ci.org/bayboraoren/unicode-task-rest)
 
-<b>UNICO TASK</b>
+**UNICO TASK**
+----
