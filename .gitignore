@@ -83,3 +83,5 @@ hs_err_pid*
 /business-service/activemq-data/
 /common-test/target/
 /common/target/
+/data-service/target
+/target
