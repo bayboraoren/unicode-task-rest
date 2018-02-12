@@ -76,5 +76,10 @@ hs_err_pid*
 
 /.idea
 *.iml
-/authentication/target
-/business/target
+/authentication-service/target
+/business-service/target
+/jms-service/activemq-data
+/jms-service/target
+/business-service/activemq-data/
+/common-test/target/
+/common/target/

@@ -1,4 +1,4 @@
-package com.unicode.test.rest.util;
+package com.unico.rest.common.util;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class URLUtil {
 
-    @Value("${default.hostname}")
+    @Value("${common.default.hostname}")
     private String defaultHostName;
 
-    @Value("${default.protocol}")
+    @Value("${common.default.protocol}")
     private String defaultProtocol;
 
 
