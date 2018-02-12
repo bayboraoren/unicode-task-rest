@@ -21,7 +21,7 @@ import java.net.URI;
  */
 @Configuration
 @EnableJms
-@PropertySource(value = {"file:/Users/baybora/Desktop/unico/unico-workspace/unicode-task-rest/jms-service/src/main/resources/application-jms.properties"})
+@PropertySource(value = {"classpath:application-jms.properties"})
 public class JmsReceiverConfig {
 
     @Value("${spring.activemq.broker-url}")

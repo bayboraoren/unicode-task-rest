@@ -16,7 +16,7 @@ import org.springframework.jms.support.converter.MessageType;
  * Created by baybora on 2/9/18.
  */
 @Configuration
-@PropertySource(value = {"file:/Users/baybora/Desktop/unico/unico-workspace/unicode-task-rest/jms-service/src/main/resources/application-jms.properties"})
+@PropertySource(value = {"classpath:application-jms.properties"})
 public class JmsSenderConfig {
 
     @Value("${spring.activemq.broker-url}")

@@ -2,10 +2,10 @@ package com.unico.rest.business.api;
 
 import com.unico.rest.authentication.AuthenticationConfig;
 import com.unico.rest.business.service.ServiceConfig;
-import com.unico.rest.common.util.URLUtil;
 import com.unico.rest.common.CommonConfig;
 import com.unico.rest.common.jwt.JwtTokenUtil;
 import com.unico.rest.common.request.ParameterRequest;
+import com.unico.rest.common.util.URLUtil;
 import com.unico.rest.data.RepositoryConfig;
 import com.unico.rest.jms.config.JmsReceiverConfig;
 import com.unico.rest.jms.config.JmsSenderConfig;

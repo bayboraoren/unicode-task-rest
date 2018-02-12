@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @ComponentScan(basePackages = {"com.unico.rest.business.api"})
 @EnableSwagger2
-@PropertySource(value = {"file:/Users/baybora/Desktop/unico/unico-workspace/unicode-task-rest/business-service/src/main/resources/business-application.properties"})
+@PropertySource(value = {"classpath:business-application.properties"})
 public class ApiConfig {
 
     @Bean

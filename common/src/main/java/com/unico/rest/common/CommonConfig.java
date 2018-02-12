@@ -9,6 +9,6 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @ComponentScan(basePackages = {"com.unico.rest.common"})
-@PropertySource(value = {"file:/Users/baybora/Desktop/unico/unico-workspace/unicode-task-rest/common/src/main/resources/common-application.properties"})
+@PropertySource(value = {"classpath:common-application.properties"})
 public class CommonConfig {
 }

@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan(basePackages = {"com.unico.rest.data"})
 @EnableJpaRepositories(basePackages = {"com.unico.rest.data.repository"})
 @EntityScan(basePackages = {"com.unico.rest.data.model"})
-@PropertySource(value = "file:/Users/baybora/Desktop/unico/unico-workspace/unicode-task-rest/data-service/src/main/resources/application-data.properties")
+@PropertySource(value = "classpath:application-data.properties")
 @EnableTransactionManagement
 public class RepositoryConfig {
 }
