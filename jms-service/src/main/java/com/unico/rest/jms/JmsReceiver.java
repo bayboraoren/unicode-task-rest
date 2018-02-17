@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.messaging.handler.annotation.Payload;
+import org.springframework.messaging.handler.annotation.SendTo;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -31,7 +32,7 @@ public class JmsReceiver {
         return latch;
     }
 
-    @JmsListener(destination = "${spring.queue.helloworld}")
+    @JmsListener(destination = "${jms.inbound}")
     public void receive(@Payload ParameterRequest parametersRequest) {
         LOGGER.info("received message='{}'", parametersRequest);
         Parameter parameter = parametersMapper.parameterRequestToParameter(parametersRequest);

@@ -1,7 +1,7 @@
 package com.unico.rest.authentication.security.util;
 
 
-import com.unico.rest.business.api.UserDetailsDummy;
+import com.unico.rest.common.test.UserDetailsDummy;
 import com.unico.rest.common.jwt.JwtTokenUtil;
 import com.unico.rest.common.jwt.JwtUser;
 import io.jsonwebtoken.Clock;

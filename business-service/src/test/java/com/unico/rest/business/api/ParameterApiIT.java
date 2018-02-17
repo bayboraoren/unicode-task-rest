@@ -5,6 +5,7 @@ import com.unico.rest.business.service.ServiceConfig;
 import com.unico.rest.common.CommonConfig;
 import com.unico.rest.common.jwt.JwtTokenUtil;
 import com.unico.rest.common.request.ParameterRequest;
+import com.unico.rest.common.test.UserDetailsDummy;
 import com.unico.rest.common.util.URLUtil;
 import com.unico.rest.data.RepositoryConfig;
 import com.unico.rest.jms.config.JmsReceiverConfig;
@@ -61,7 +62,7 @@ public class ParameterApiIT {
         headers.set("Authorization","Bearer " + accessToken);
         HttpEntity<ParameterRequest> entity = new HttpEntity(parametersRequest, headers);
 
-        ResponseEntity<String> response = restTemplate.exchange(urlUtil.createEndpoint(localServerPort,ParameterApi.ADD_PARAMETERS_URL),
+        ResponseEntity<String> response = restTemplate.exchange(urlUtil.createEndpoint(localServerPort,ParameterApi.PARAMETERS_URL),
                 HttpMethod.PUT,
                 entity,
                 String.class);

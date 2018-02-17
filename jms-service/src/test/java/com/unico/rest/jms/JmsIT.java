@@ -56,7 +56,7 @@ public class JmsIT {
 
         boolean isSuccess = jmsSender.send(parametersRequest);
         assertThat(isSuccess, is(true));
-        jmsReceiver.getLatch().await(2000, TimeUnit.MILLISECONDS);
+        jmsReceiver.getLatch().await(5000, TimeUnit.MILLISECONDS);
         assertThat(parameterRepository.findOne(1L), is(notNullValue()));
     }
 }

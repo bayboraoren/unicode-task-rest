@@ -18,4 +18,13 @@ public class ParameterRequest {
     private Integer parameter1;
     private Integer parameter2;
     private Date insertTimestamp;
+
+    @Override
+    public String toString() {
+        return "ParameterRequest{" +
+                "parameter1=" + parameter1 +
+                ", parameter2=" + parameter2 +
+                ", insertTimestamp=" + insertTimestamp +
+                '}';
+    }
 }
