@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/bayboraoren/unicode-task-rest.svg?branch=develop)](https://travis-ci.org/bayboraoren/unicode-task-rest)
 
+[![Coverage Status](https://coveralls.io/repos/github/bayboraoren/unicode-task-rest/badge.svg?branch=develop)](https://coveralls.io/github/bayboraoren/unicode-task-rest?branch=develop)
+
 **UNICO TASK**
 -
 ...
